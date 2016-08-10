@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/south_park_fragment"
+        android:icon="@drawable/ic_south_park"
+        android:title="South Park" />
+    <item
+        android:id="@+id/family_guy_fragment"
+        android:icon="@drawable/family_guy"
+        android:title="Family Guy" />
+    <item
+        android:id="@+id/the_simpsons_fragment"
+        android:icon="@drawable/ic_simpsons"
+        android:title="Simpsons" />
+    <item
+        android:id="@+id/futurama_fragment"
+        android:icon="@drawable/futurama"
+        android:title="Futurama" />
+
+
+</menu>
