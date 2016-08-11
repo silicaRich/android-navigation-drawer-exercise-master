@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <item android:title="SimpsonsRama">
+        <menu>
+            <group android:checkableBehavior="single">
+
     <item
         android:id="@+id/south_park_fragment"
         android:icon="@drawable/ic_south_park"
@@ -9,11 +13,14 @@
         android:id="@+id/family_guy_fragment"
         android:icon="@drawable/ic_family_guy"
         android:title="Family Guy" />
+            </group>
+        </menu>
+    </item>
 
 
-    <item android:title="SimpsonsRama">
-        <menu>
-            <group android:checkableBehavior="single">
+            <item android:title="SimpsonsRama">
+                <menu>
+                    <group android:checkableBehavior="single">
 
 
                 <item
