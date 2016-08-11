@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<group xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
         android:id="@+id/south_park_fragment"
@@ -10,17 +10,22 @@
         android:icon="@drawable/ic_family_guy"
         android:title="Family Guy" />
 
-    <group android:checkableBehavior="single">
 
-    <item
-        android:id="@+id/the_simpsons_fragment"
-        android:icon="@drawable/ic_simpsons"
-        android:title="Simpsons" />
-    <item
-        android:id="@+id/futurama_fragment"
-        android:icon="@drawable/ic_futurama"
-        android:title="Futurama" />
-    </group>
-</group>
+    <item android:title="SimpsonsRama">
+        <menu>
+            <group android:checkableBehavior="single">
+
+
+                <item
+                    android:id="@+id/the_simpsons_fragment"
+                    android:icon="@drawable/ic_simpsons"
+                    android:title="Simpsons" />
+                <item
+                    android:id="@+id/futurama_fragment"
+                    android:icon="@drawable/ic_futurama"
+                    android:title="Futurama" />
+            </group>
+        </menu>
+    </item>
 
 </menu>
